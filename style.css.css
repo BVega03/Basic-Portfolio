@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 95vh
-}
-
 body {
     background-color: #ebebeb;
     margin: 0;
@@ -30,6 +25,11 @@ body {
     margin: 0;
     left: 80px;
     font-size: 28px;
+}
+
+#nav > li {                                                             
+    display:Inline-block;
+    padding: 30px 30px 50px 70px;                                  
 }
 
 a {
@@ -56,10 +56,9 @@ a {
 }
 
 h1 {
-    background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #4aaaa5;
-    font-size: 24px;
+    font-size: 40px;
 }
 
 hr {
