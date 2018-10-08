@@ -1,3 +1,4 @@
+
 .topnav {
     background-color: #ebebeb;
     position: absolute;
@@ -26,7 +27,7 @@
     color: white;
 }
 
-#name {
+#BV {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -84,3 +85,4 @@ hr {
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
+
