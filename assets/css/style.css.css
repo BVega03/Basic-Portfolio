@@ -1,10 +1,8 @@
-
 .topnav {
     background-color: #ebebeb;
     position: absolute;
     text-align: center;
     top: 0px;
-    left: 0px;
     width: 100%;
     padding-bottom: 38px;
 
@@ -14,7 +12,8 @@
     color: #777;
     text-decoration: none;
     font-size: 20px;
-    padding-left: 50px;
+    text-align: right;
+    padding-left: 100px;
 }
 
 .topnav a:hover {
@@ -38,7 +37,7 @@
     text-align: center;
     top: 0;
     margin: 0;
-    left: 250px;
+    left: 180px;
     font-size: 28px;
     overflow: hidden;
 }
@@ -53,6 +52,22 @@ hr {
     height: 12px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)
+}
+
+img {
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left
+}
+
+My_First_Page:before {
+    content: url(https://7trwaq.by.files.1drv.com/y4mN572hD4bfVahIp1IvMhRJPUVaw6F9A2onny28d5KQR03tkQSd7N3YnhCKEIj_J-yYMih-rEWSs7BTTigSJ67UlkLOeH1XaN7q6j0Ci15UsH5T-C5NOiTqZdwWEy6j_c5TmkB7pKSF_jUC3zqeDiAbsyoU8iUfxioSMg7aGMMADYOCJZMo_Dvbi8bufZfUsO1OiscE3HOFGARDNzi6y8tqw?width=660&height=495&cropmode=none);
+    display: block;
+    height: 169px;
+    width: 220px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .wrapper {
@@ -85,4 +100,3 @@ hr {
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
-
